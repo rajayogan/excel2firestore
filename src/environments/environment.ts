@@ -4,5 +4,13 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  config: {
+    apiKey: <apiKey>,
+    authDomain: <yourauthDomain>,
+    databaseURL: <yourdatabaseURL>,
+    projectId: <yourprojectId>,
+    storageBucket: <yourstoragebucket>,
+    messagingSenderId: <yoursenderIdhere>
+  }
 };
